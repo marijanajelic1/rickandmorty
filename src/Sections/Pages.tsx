@@ -15,9 +15,9 @@ const Pages = ({ pageNumber, updatePageNumber }: {pageNumber: number, updatePage
     };
   
     return (
-      <div className='container d-flex justify-content-center gap-5 my-5'>
-        <button onClick={prev} className="button-primary">Prev</button>
-        <button onClick={next} className="button-primary">Next</button>
+      <div className='container d-flex justify-content-center gap-5 my-4'>
+        <button onClick={prev} className="button">Prev</button>
+        <button onClick={next} className="button">Next</button>
       </div>
     );
   };
